@@ -1,0 +1,208 @@
+html {
+  touch-action: manipulation;
+}
+
+div{
+max-width:100%;
+/*background:green;*/
+text-align:center;
+}
+
+h1{
+  font-size: 4vw;
+  margin:auto
+}
+
+h2{
+margin:1;
+font-weight:normal;
+font-size:3.5vw
+}
+
+.buttons{
+  font-size: 3vw;
+  color:black;
+  background:white;
+  width:18vw;
+  height:18vw;
+  outline:none;
+  border: solid 1px #ffa000;
+  border-radius:2vw;
+}
+
+table {
+/*background:#fffae9;*/
+displat:table;
+border-collapse:separate;
+border-spacing:1px;
+margin:auto
+}
+
+td,tr{
+line-height:0;
+margin:0;
+padding:0;
+}
+
+#create{
+  font-size: 3vw;
+  color:black;
+  background:#fffae9;
+  border: solid 1px #ffa000;
+  outline:none;
+  width:36vw;
+  height:9vw;
+}
+
+#create:active{
+  background:#ffdab1;
+  border: solid 1px #ff8c00;
+  outline:none;
+}
+
+
+
+#savearea_text{
+  font-size: 4vw;
+  align-self: end;
+}
+
+.saveareabuttons{
+  font-size: 3vw;
+  color:black;
+  background:#fffae9;
+  border: solid 1px #ff7100;
+  outline:none;
+  width:18vw;
+  height:18vw;
+}
+
+.saveareabuttons:active{
+  background:#ffdab1;
+  border: solid 1px #ff8c00;
+  outline:none;
+}
+
+#save{
+}
+
+#restoration{
+}
+
+#save_weapondata{
+  font-size:16px;
+  background:#fffae9;
+  resize: none;
+  padding:0.8vw;
+  border: solid 1px #ff7100;
+  outline:none;
+  font-family:メイリオ;
+  width:34vw;
+  height:16vw;
+}
+
+#delete{
+}
+
+#updatebutton{
+  font-size:2.5vw;
+  color:#654f35;
+  background:#fffae9;
+  border: solid 1px #654f35;/*線色*/
+  outline:none;
+  width:36vw;
+  height:9vw;
+}
+
+#QandAbutton{
+  font-size:2.5vw;
+  color:#654f35;
+  background:#fffae9;
+  border: solid 1px #654f35;/*線色*/
+  outline:none;
+  width:36vw;
+  height:9vw;
+}
+
+#closebutton{
+  font-size:2.5vw;
+  color:#654f35;
+  background:#fffae9;
+  border: solid 1px #654f35;/*線色*/
+  outline:none;
+  width:18vw;
+  height:9vw;
+}
+
+#QandA,#update{
+  resize: none;
+  font-family: メイリオ;
+  font-size: 16px;
+  padding: 0.8vw; /*余白*/
+  width:88vw;
+  height:36vw;
+  margin:auto;
+}
+
+#update{
+  display:none;/*blockで上書き*/
+}
+
+#QandA{
+  display:none;/*blockで上書き*/
+}
+
+@media(min-width:500px){
+
+h1,h2{
+font-size:20px;
+}
+
+.buttons{
+  font-size:15px;
+  width:90px;
+  height:90px;
+  border-radius:10px
+}
+
+#create{
+font-size:15px;
+}
+
+#create{
+ width:180px;
+ height:45px;
+}
+
+.saveareabuttons{
+ font-size:15px;
+ width:90px;
+ height:90px;
+}
+
+#save_weapondata{
+ padding:4px;
+ width:170px;
+ height:80px;
+}
+
+#updatebutton,#QandAbutton{
+font-size:12.5px;
+width:180px;
+height:45px;
+}
+
+#closebutton{
+font-size:12.5px;
+width:90px;
+height:45px;
+}
+
+#update,#QandA{
+  padding: 4px;
+  width:446px;
+  height:186px;
+}
+
+
+}
